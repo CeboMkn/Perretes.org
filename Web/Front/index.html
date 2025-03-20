@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="/src/assets/img/Logo Perro.png" class="logo">
+            <nav class="navigator">
+                <a href="#">Inicio</a>
+                <a href="#">Acerca de</a>
+                <a href="#">Servicios</a>
+                <a href="#">Contacto</a>
+                <button class="btnLogin">Iniciar Sesión</button>
+            </nav>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <div class="form-box">
+            <h2>Iniciar Sesión</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox">Recuerdame</label>
+                    <a href="#">¿Olvidé contraseña?</a>
+                </div>
+                <button type="submit" class="btn">Iniciar Sesión</button>
+                <div class="login-register">
+                    <p>¿No tienes una cuenta?<a href="#" class="register-link">Registrate</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="/index.js"></script>
+</body>
+</html>
